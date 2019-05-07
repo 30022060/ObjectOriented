@@ -39,7 +39,7 @@ namespace Oject_Orientated
                 get { return name; }
                 set { name = value; }
              }
-
+            
              public int ID
              {
                 get { return id; }
