@@ -13,7 +13,7 @@ namespace Classes1
             Console.ForegroundColor = ConsoleColor.White;
             Car c1 = new Car();
             c1.Make = "Holden";
-            c1.Model = "302";
+            c1.Model = "Monaro";
             c1.Colour = "Black";
             Console.WriteLine("Car Type: {0]\nName: {1}\nColour: {2}\nRego {3}", c1.Make, c1.Model, c1.Colour, c1.Rego);
             Console.ReadLine();
@@ -29,17 +29,17 @@ namespace Classes1
         public string Make
         {
             get { return make; }
-            set { Make = value; }
+            set { make = value; }
         }
         public string Model
         {
             get { return model; }
-            set { Model = value; }
+            set { model = value; }
         }
         public string Colour
         {
             get { return colour; }
-            set { Colour = value; }
+            set { colour = value; }
         }
         public int Rego
         {
@@ -56,6 +56,7 @@ namespace Classes1
         {
             Console.WriteLine("***Car Created***");
             Rego = RandomRego();
+            
         }
     }
 }
